@@ -1,7 +1,7 @@
 composite number tester - added q0 and assumed start with $
 q0,q1,q2,q3,q4,q5s,q5x,q6,q7,qaccept,qreject
 1
-1,y,$,_
+1,y,$,_,x
 q0
 qaccept
 qreject
