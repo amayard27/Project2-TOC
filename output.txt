@@ -66,3 +66,86 @@ Level: 30
 $XXX qa X_
 --
 
+Tracing NTM: composite_number on input '111111'
+Accepted - 111111 - 28 depth, 103 transitions
+
+_
+Level: 0
+ q0 $111111_
+Level: 1
+$ q1 111111_
+Level: 2
+$y q2 11111_
+Level: 3
+$yx q3 1111_
+Level: 4
+$y q4 x1111_
+Level: 5
+$ q4 yx1111_
+Level: 6
+$_ q5s x1111_
+Level: 7
+$_x q5s 1111_
+Level: 8
+$_ q6 xy111_
+Level: 9
+$ q6 _xy111_
+Level: 10
+$_ q7 xy111_
+Level: 11
+$__ q5x y111_
+Level: 12
+$__y q5x 111_
+Level: 13
+$__ q6 yx11_
+Level: 14
+$_ q6 _yx11_
+Level: 15
+$__ q7 yx11_
+Level: 16
+$___ q5s x11_
+Level: 17
+$___x q5s 11_
+Level: 18
+$___ q6 xy1_
+Level: 19
+$__ q6 _xy1_
+Level: 20
+$___ q7 xy1_
+Level: 21
+$____ q5x y1_
+Level: 22
+$____y q5x 1_
+Level: 23
+$____ q6 yx_
+Level: 24
+$___ q6 _yx_
+Level: 25
+$____ q7 yx_
+Level: 26
+$_____ q5s x_
+Level: 27
+$_____x q5s _
+Level: 28
+$_____ qacc x_
+--
+
+
+Tracing NTM: a plus on input 'aaa'
+Accepted - aaa - 5 depth, 8 transitions
+
+_
+Level: 0
+ q0 $aaa_
+Level: 1
+$ q1 aaa_
+Level: 2
+$a q1 aa_
+Level: 3
+$aa q1 a_
+Level: 4
+$aaa q2 _
+Level: 5
+$aa q3 a_
+--
+
